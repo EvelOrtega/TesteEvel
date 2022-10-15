@@ -305,7 +305,7 @@ pessoas.map((pessoa) => {
     const planosFilteredByCode = planos.filter(
         (plano) => pessoa.plano.codigo === plano.codigo
     );
-    const ordernedPlanos = planosFilteredByCode.sort(
+    const ordinatedPlanos = planosFilteredByCode.sort(
         (a, b) => a.minimo_vidas - b.minimo_vidas
     );
     const planoPessoa = ordernedPlanos.find(
